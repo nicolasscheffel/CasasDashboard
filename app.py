@@ -137,5 +137,5 @@ def update_graph(categoria, start_date, end_date):
 server = app.server
 
 # Rodar o servidor (apenas para desenvolvimento local)
-#if __name__ == '__main__':
-#   app.run_server(debug=True, port=8050) # Use app.run_server para Dash
+if __name__ == '__main__':
+    app.run_server(debug=True, port=8050) # Use app.run_server para Dash
