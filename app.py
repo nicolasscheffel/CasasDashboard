@@ -3,7 +3,7 @@ from dash import dcc, html, dash_table, Input, Output
 import pandas as pd
 
 # Carregando o DataFrame
-df = pd.read_excel(r'C:\Users\BI\Downloads\Controle_Custos_Obra_Geminadas (1).xlsx', sheet_name='Custos Das Casas')
+df = pd.read_excel('controle_custos.xlsx', sheet_name='Custos Das Casas')
 df['Data'] = pd.to_datetime(df['Data'], format='%d/%m/%Y', errors='coerce')
 
 # Inicializando o app
