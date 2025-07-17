@@ -10,5 +10,5 @@ app.layout = html.Div([
 
 server = app.server  # necessário para o Render
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
